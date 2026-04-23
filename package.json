@@ -8,7 +8,8 @@
   "main": "index.js",
   "scripts": {
     "demo" : "npx playwright test tests/demo/mytest.spec.ts --headed",
-    "firefox" : "npx playwright test tests/demo/mytest.spec.ts --headed --project=firefox"
+    "login" : "npx playwright test tests/functional/login.spec.ts --headed --project=chromium",
+    "firefox" : "npx playwright test tests/functional/login.spec.ts --headed --project=firefox"
   },
   "devDependencies": {
     "@playwright/test": "^1.59.1",

@@ -5,7 +5,7 @@ Recommended Extensions:
 1. vscode icons
 2. Prettier - code formatter
 3. Path Intellisence
-4. npm Intellisence
+4. npm Intellisence 
 5. DotENV
 6. JavaScript ES6 code scnippets
 7. .gitignore generator
@@ -25,3 +25,7 @@ Issues:
 Remember this `ACP` - `Add commit push`
 
 shortcut: `start .` top open the directory
+
+CodeGen: `npx playwright codegen "URL"`
+
+Run with JSON script: `npm run {firefox}` here firefox is the key value pair

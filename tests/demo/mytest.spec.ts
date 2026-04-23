@@ -5,3 +5,4 @@ test("Should load the URL with the correct title ", async ({ page }) => {
   await expect(page).toHaveTitle("CURA Healthcare Service");
   await expect(page.locator("//h1")).toHaveText("CURA Healthcare Service");
 });
+
